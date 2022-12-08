@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have Account? Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:id="@+id/txtcreateyouraccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/txtyourname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="Enter Your Name"
+        android:textColor="@color/black"
+        android:background="@drawable/custom1"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+
+    <TextView
+        android:id="@+id/txtyouremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Email"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="Enter Your Email"
+        android:textColor="@color/black"
+        android:background="@drawable/custom1"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="Enter Your Password"
+        android:textColor="@color/black"
+        android:background="@drawable/custom1"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+
+    <Button
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="-37dp"
+        tools:layout_editor_absoluteY="392dp" />
+</android.support.constraint.ConstraintLayout>
+
+
+
+
